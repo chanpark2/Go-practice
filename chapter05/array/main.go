@@ -25,12 +25,4 @@ func main() {
 	for i, v := range temps {
 		println(i, v)
 	}
-
-	a := [...]int{1, 2, 3}
-	b := [...]int{100, 200, 300}
-
-	b = a
-	println(b[0])
-	println(b[Y-1])
-
 }
